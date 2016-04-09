@@ -38,7 +38,8 @@ int main(void){
 	}
 	
 	fprintf(F,FOOT);
-	
+	free(rgb);
+	fclose(F);
 	return 0;
 }
 
